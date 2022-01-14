@@ -1,0 +1,28 @@
+{
+  "name": "team-generator",
+  "version": "1.0.0",
+  "description": "This generates a team page with the given data",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krausyd/team-generator.git"
+  },
+  "keywords": [
+    "node",
+    "inquirer",
+    "jest",
+    "generator"
+  ],
+  "author": "krausyd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krausyd/team-generator/issues"
+  },
+  "homepage": "https://github.com/krausyd/team-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
