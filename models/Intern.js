@@ -19,7 +19,7 @@ class Intern extends Employee {
     }
     
     generateAdditionalHtml() {
-        return `School: ${this.getSchool()}</a>`;
+        return `School: ${this.getSchool()}`;
     }
 
     static getQuestions() {

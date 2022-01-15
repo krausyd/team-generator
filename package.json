@@ -4,7 +4,7 @@
   "description": "This generates a team page with the given data",
   "main": "app.js",
   "scripts": {
-    "test": "npm test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,9 @@
     "url": "https://github.com/krausyd/team-generator/issues"
   },
   "homepage": "https://github.com/krausyd/team-generator#readme",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  },
   "dependencies": {
     "inquirer": "^8.2.0"
   }
