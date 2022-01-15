@@ -14,6 +14,14 @@ class Engineer extends Employee {
         return this.github;
     }
 
+    getIcon() {
+        return 'assets/img/engineer.png';
+    }
+    
+    generateAdditionalHtml() {
+        return `Github: <a href="http://github.com/${this.getGithub()}">${this.getGithub()}</a>`;
+    }
+
     static getQuestions() {
         const questions = super.getQuestions('Engineer');
         questions.push({

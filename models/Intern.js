@@ -14,6 +14,14 @@ class Intern extends Employee {
         return this.school;
     }
 
+    getIcon() {
+        return 'assets/img/intern.png';
+    }
+    
+    generateAdditionalHtml() {
+        return `School: ${this.getSchool()}</a>`;
+    }
+
     static getQuestions() {
         const questions = super.getQuestions('Intern');
         questions.push({

@@ -22,9 +22,10 @@ const done = () => {
             message: 'File created!'
         })
     });
-    fs.copyFileSync('./icons/engineer.jpg', './dist/assets/img/engineer.jpg');
-    fs.copyFileSync('./icons/manager.png', './dist/assets/img/manager.png');
-    fs.copyFileSync('./icons/intern.png', './dist/assets/img/intern.png');
+    fs.copyFileSync('./assets/icons/engineer.png', './dist/assets/img/engineer.png');
+    fs.copyFileSync('./assets/icons/manager.png', './dist/assets/img/manager.png');
+    fs.copyFileSync('./assets/icons/intern.png', './dist/assets/img/intern.png');
+    fs.copyFileSync('./assets/css/style.css', './dist/assets/css/style.css');
 }
 
 const promptIntern = () => {

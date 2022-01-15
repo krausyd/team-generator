@@ -14,6 +14,14 @@ class Manager extends Employee {
         return this.officeNumber;
     }
 
+    getIcon() {
+        return 'assets/img/manager.png';
+    }
+
+    generateAdditionalHtml() {
+        return `Office number: ${this.getOfficeNumber()}`;
+    }
+
     static getQuestions() {
         const questions = super.getQuestions('Manager');
         questions.push({
